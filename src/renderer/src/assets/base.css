@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 300px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+.left,
+.right {
+  display: inline-block;
+  width: 49%;
+}
+
+.right {
+  text-align: right;
+}
+
+hr {
+  border: 1px dashed #000;
+}
+
+input,
+textarea {
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row textarea {
+  flex: 1;
+  overflow: hidden;
+  padding: 0;
+  text-align: justify;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.spanred {
+  margin-right: 5px;
+  background-color: #ffe1e1;
+}
+
+.spanwhite {
+  background-color: #ffffff;
+}
+.titulosFac {
+  padding: 0px !important;
+  text-align: center;
+}
